@@ -21,6 +21,8 @@ The goal is to predict survival on the Titanic using the k-Nearest Neighbors cla
 
 This demonstration code was created as part of a presentation on the kNN algorithm for the ML presentation group at the Recurse Center. Slides here: <https://docs.google.com/presentation/d/1ShwB97-faps3C5_OIx3ZHHfO2_er1Vj6U63rKghz1xE/edit?usp=sharing>
 
+I analyze the data through training and validation for purpose of example. I do not make a prediction on the testing dataset here. 
+
 Brief Exploration of Training and Testing datasets
 --------------------------------------------------
 
