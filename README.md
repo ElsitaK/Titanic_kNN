@@ -390,8 +390,8 @@ mean(pred_f2_k11 == labs_val_f2$Survived)
 perf <- as.data.frame(c(1,3,5,7,9,11)) 
 names(perf)[1] <- "k"
 perf$error[1] <- 1 - (mean(pred_f2_k1 == labs_val_f2$Survived))
-perf$error[2] <- 1 - (mean(pred_f2_k3 == labs_val_f2$Survived)) 
-perf$error[3] <- 1 - (mean(pred_f2_k5 == labs_val_f2$Survived))  #ELBOW
+perf$error[2] <- 1 - (mean(pred_f2_k3 == labs_val_f2$Survived))  #ELBOW
+perf$error[3] <- 1 - (mean(pred_f2_k5 == labs_val_f2$Survived))  
 perf$error[4] <- 1 - (mean(pred_f2_k7 == labs_val_f2$Survived)) 
 perf$error[5] <- 1 - (mean(pred_f2_k9 == labs_val_f2$Survived)) 
 perf$error[6] <- 1 - (mean(pred_f2_k11 == labs_val_f2$Survived)) 
