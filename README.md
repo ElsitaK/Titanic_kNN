@@ -27,7 +27,7 @@ Brief Exploration of Training and Testing datasets
 --------------------------------------------------
 
 ``` r
-setwd("/Users/elsita/Documents/Job Search/Data Science/Kaggle/Titanic")
+#filepath omitted
 
 #the data from: https://www.kaggle.com/c/titanic/overview
 train <- read_csv("train.csv")
